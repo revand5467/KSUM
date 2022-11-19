@@ -11,29 +11,29 @@
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </head>
 <body >
-  
+ 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Kerala Startup Mission</a>
+          
+          <img class="logo" src = "images/kerala-startup-mission.svg">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#about-us">About Us</a></li>
-                  <li><a class="dropdown-item" href="#scope-of-work">Who can submit EOI?</a></li>
-                  <li><a class="dropdown-item" href="#who-can-submit" >How to apply?</a></li>
-                  <li><a class="dropdown-item" href="#scope-of-work">Scope of work</a></li>
-                  <li><a class="dropdown-item" href="#award-of-work">Award of Work</a></li>
-                </ul>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
-            </ul>
+              <li><a class="nav-link active" href="#about-us">About Us</a></li>
+              <li><a class="nav-link active" href="#scope-of-work">Who can submit EOI?</a></li>
+              <li><a class="nav-link active" href="#who-can-submit" >How to apply?</a></li>
+              <li><a class="nav-link active" href="#scope-of-work">Scope of work</a></li>
+              <li><a class="nav-link active" href="#award-of-work">Award of Work</a></li>
+              
+              <li class="nav-item dropdown"></li>
+              </ul>
           </div>
+         
         </div>
       </nav>
       <div class="slider-holder">
@@ -71,10 +71,13 @@
     <main class="main-section">
         <div class="space"></div>
         <div class="space"></div>
-        <div class="button">
+        <div class="container-button">
+          <div class="button">
            
-            <a href="#">Register Now!</a>
+            <h4>Register Now!</h4>
           </div>
+        </div>
+        
     <section id="scope-of-work" class="scope-of-work">
         <div class="space"></div>
         <div class="space"></div>
@@ -82,16 +85,19 @@
             <div class = container>
                 <div class="container container-elements">
                     <div class = card>
+                      <div class="card-top">
+
+                      
                         <div class = image>
                             
-                            <img class = "logo" href = "#" src ="images/kerala-startup-mission.svg">
+                          <div class="icon-content">
+                            <img class = "icon-content-logo" src ="images/settings.svg">
+                            <h3>Business Support Services</h3>
+                          </div>
+                        </div>
                         </div>
                         <div class = content>
-                            <div class="icon-content">
-                                <img class = "icon-content-logo" src ="images/settings.svg">
-                                <h3>Business Support Services</h3>
-                                
-                            </div>
+                            
                          
                          <ol>
                             <li>Starting Up</li>
@@ -104,15 +110,17 @@
                 </div>
                 <div class="container container-elements">
                     <div class = card>
+                      <div class ="card-top">
+
                         <div class = image>
-                            <img class = "logo" href = "#" src ="images/kerala-startup-mission.svg">
+                          <div class="icon-content">
+                            <img class = "icon-content-logo" src ="images/users-alt.svg">
+                            <h3>Business Support Services</h3>
+                          </div>
+                        </div>
                         </div>
                         <div class = content>
-                            <div class="icon-content">
-                                <img class = "icon-content-logo" src ="images/users-alt.svg">
-                                <h3>Business Support Services</h3>
-                                
-                            </div>
+                            
                             <ol>
                                <li>Software Resellers</li>
                                <li>Certifications</li>
@@ -124,15 +132,16 @@
                 </div>
                 <div class="container container-elements">
                     <div class = card>
+                      <div class="card-top">
                         <div class = image>
-                            <img class = "logo" href = "#" src ="images/kerala-startup-mission.svg">
+                          <div class="icon-content">
+                            <img class = "icon-content-logo" src ="images/users.svg">
+                            <h3>HR as a service</h3>
+                            </div>
+                        </div>
                         </div>
                         <div class = content>
-                            <div class="icon-content">
-                                <img class = "icon-content-logo" src ="images/users.svg">
-                                <h3>HR as a service</h3>
-                                
-                            </div>
+                           
                             <ol>
                                <li>Building Teams</li>
                                
@@ -144,13 +153,16 @@
                
                 <div class="container container-elements">
                     <div class = card>
+                      <div class="card-top">
                         <div class = image>
-                            <img class = "logo" href = "#" src ="images/kerala-startup-mission.svg">
+                          <img class = "icon-content-logo" src ="images/world.svg">
+                          <h3>Investment Support Services</h3>
                         </div>
+                      </div>
+                        
                         <div class = content>
                             <div class="icon-content">
-                                <img class = "icon-content-logo" src ="images/world.svg">
-                                <h3>Investment Support Services</h3>
+                                
                                 
                             </div>
                             <ol>
@@ -164,6 +176,7 @@
             </div>
           
     </section>
+    <div class="inline-objects">
     <div id ="who-can-submit" class="who-can-container">
         <section class="who-can-submit">
             <div class="container-who-can-submit">
@@ -227,6 +240,7 @@
               </div>
         </section>
     </div>
+  </div>
     <div id = "award-of-work" class="award-of-work">
         <div class="space"></div>
         <h1>Award of work</h1>
@@ -236,12 +250,9 @@
     <div class="space"></div>
     </div>
     <footer>
-        <address>
-          <a href="https://startupmission.kerala.gov.in/">Kerala Startupmission</a>
-          technopark<br />
-          Trivandrum<br />
-          Kerala<br />
-        </address>
+      <h5 class="footer-content">© 2021 Kerala Startup Mission</h5>
+      <h5 class="footer-content"> </h5>
+      <h5 class="footer-content-right">Ask KSUM</h5>
       </footer> 
     </main>
 
